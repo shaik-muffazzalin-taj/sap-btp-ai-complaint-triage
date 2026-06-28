@@ -1,0 +1,15 @@
+{
+  "summary": "Customer reports that a delivery expected yesterday has not arrived, the shipment is still missing, and there is no status update.",
+  "category": "Delivery Issue",
+  "sentiment": "Negative",
+  "business_impact": "Delayed and missing shipment may inconvenience the customer, but no immediate business disruption is stated.",
+  "urgency": "High",
+  "priority": "Medium",
+  "sla_risk": "Medium",
+  "recommended_team": "Logistics Team",
+  "recommended_action": "Investigate the shipment status with the carrier, locate the missing delivery, provide the customer with an update and revised delivery estimate, and escalate internally if the shipment cannot be found promptly.",
+  "workflow_route": "RESPONSIBLE_TEAM_REVIEW",
+  "confidence": 0.95,
+  "requires_human_review": false,
+  "decision_justification": "This is a delivery issue involving a shipment that is one day late, missing, and lacking status updates. Priority is Medium because the issue is important but no immediate business disruption, safety risk, legal or compliance risk, refund or compensation request, or repeated occurrence is mentioned. Some business impact details are not provided."
+}

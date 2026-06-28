@@ -1,0 +1,15 @@
+{
+  "summary": "Customer reports receiving an invoice with a duplicate charge and requests a corrected invoice.",
+  "category": "Billing Issue",
+  "sentiment": "Negative",
+  "business_impact": "Incorrect invoice may cause billing or payment processing issues, but no immediate business disruption is stated.",
+  "urgency": "Medium",
+  "priority": "Medium",
+  "sla_risk": "Medium",
+  "recommended_team": "Finance Team",
+  "recommended_action": "Review the invoice for the duplicate charge, correct the billing amount if confirmed, and issue a corrected invoice to the customer.",
+  "workflow_route": "FINANCE_APPROVAL",
+  "confidence": 0.96,
+  "requires_human_review": false,
+  "decision_justification": "This is a billing issue because the customer reports a duplicate charge and requests a corrected invoice. Priority is Medium because the issue is important but no immediate business disruption, legal or compliance risk, refund or compensation request, or repeated occurrence is mentioned. Workflow is routed to FINANCE_APPROVAL because a billing correction is requested."
+}

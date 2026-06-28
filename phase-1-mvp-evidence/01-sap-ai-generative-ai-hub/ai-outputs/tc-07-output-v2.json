@@ -1,0 +1,15 @@
+{
+  "summary": "Customer reports that the delivered product is damaged, cannot be used, and requires an urgent replacement.",
+  "category": "Product Quality",
+  "sentiment": "Negative",
+  "business_impact": "The product is unusable, creating a significant customer impact; no full business operation stoppage is explicitly stated.",
+  "urgency": "High",
+  "priority": "High",
+  "sla_risk": "High",
+  "recommended_team": "Quality Team",
+  "recommended_action": "Review the damage report, arrange an urgent replacement if eligible, and coordinate any required return or inspection of the damaged product.",
+  "workflow_route": "SERVICE_MANAGER_REVIEW",
+  "confidence": 0.94,
+  "requires_human_review": true,
+  "decision_justification": "Priority is High because the delivered product is damaged, unusable, and the customer requests urgent replacement. Human review is required because priority is High. No safety risk, legal or compliance issue, refund, compensation request, or explicit business operation stoppage is mentioned."
+}

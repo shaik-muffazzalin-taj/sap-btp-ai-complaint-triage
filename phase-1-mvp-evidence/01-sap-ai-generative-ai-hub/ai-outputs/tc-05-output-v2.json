@@ -1,0 +1,15 @@
+{
+  "summary": "Customer states they are considering legal action because an unspecified issue remains unresolved despite multiple complaints.",
+  "category": "General Service Complaint",
+  "sentiment": "Highly Negative",
+  "business_impact": "Potential legal escalation and unresolved repeated complaint; the specific operational or financial impact is not provided.",
+  "urgency": "Immediate",
+  "priority": "Critical",
+  "sla_risk": "High",
+  "recommended_team": "Legal or Compliance Team",
+  "recommended_action": "Escalate immediately to legal or compliance review, involve a service manager, review the complaint history, identify the unresolved issue, and prepare a response plan to address the customer escalation.",
+  "workflow_route": "LEGAL_COMPLIANCE_REVIEW",
+  "confidence": 0.82,
+  "requires_human_review": true,
+  "decision_justification": "Priority is Critical because the customer mentions considering legal action. Human review is required due to legal risk and Critical priority. The complaint references multiple complaints but does not specify the exact number or the underlying issue, so category and business impact have some uncertainty."
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "Customer asks how to update their service address for future deliveries.",
+  "category": "General Service Complaint",
+  "sentiment": "Neutral",
+  "business_impact": "No complaint or business disruption is stated; this is an informational service request.",
+  "urgency": "Low",
+  "priority": "Low",
+  "sla_risk": "Low",
+  "recommended_team": "Service Team",
+  "recommended_action": "Provide instructions for updating the service address for future deliveries or direct the customer to the appropriate account management process.",
+  "workflow_route": "STANDARD_SERVICE_QUEUE",
+  "confidence": 0.95,
+  "requires_human_review": false,
+  "decision_justification": "The request is clear and informational, with no stated dissatisfaction, operational impact, refund request, safety issue, legal or compliance risk, repeated issue, or SLA concern. Priority is Low and confidence is above 0.70, so standard service routing is appropriate."
+}

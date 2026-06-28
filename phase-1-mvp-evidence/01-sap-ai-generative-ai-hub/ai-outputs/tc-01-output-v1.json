@@ -1,0 +1,14 @@
+{
+  "summary": "Customer reports that their production machine has stopped again, blocking operations. This is the third report of the same issue and immediate support is requested.",
+  "category": "Technical Service",
+  "sentiment": "Highly Negative",
+  "business_impact": "Production operations are blocked due to machine stoppage, with repeated occurrence reported.",
+  "urgency": "Immediate",
+  "priority": "Critical",
+  "sla_risk": "High",
+  "recommended_team": "Technical Support / Field Service",
+  "recommended_action": "Escalate immediately for urgent technical intervention, prioritize dispatch or remote diagnostics, and review recurrence history to identify root cause.",
+  "confidence": 0.98,
+  "requires_human_review": true,
+  "decision_justification": "Priority is Critical because production operations are stopped and this is the third reported occurrence. Human review is required due to business operation stoppage and repeated issue three or more times. SLA risk is high due to immediate operational impact."
+}

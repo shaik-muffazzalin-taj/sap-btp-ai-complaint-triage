@@ -1,0 +1,7 @@
+Rule ID,Condition,Workflow Route,Responsible Team,Human Review Required,Notes
+DR-01,Critical priority or high SLA risk,CRITICAL_ESCALATION,Service Manager,TRUE,Used for urgent cases with strong escalation need.
+DR-02,Billing correction or refund approval needed,FINANCE_APPROVAL,Finance Team,TRUE,Used when finance review or approval is required.
+DR-03,Legal or compliance risk mentioned,LEGAL_COMPLIANCE_REVIEW,Legal or Compliance Team,TRUE,Used when customer mentions legal action or compliance concern.
+DR-04,High priority complaint needing manager review,SERVICE_MANAGER_REVIEW,Service Manager,TRUE,Used for serious complaints that are not legal or critical escalation cases.
+DR-05,Standard responsible-team handling needed,RESPONSIBLE_TEAM_REVIEW,Responsible Team,FALSE,Used for medium cases that can be handled by the assigned team.
+DR-06,Low-risk information or service request,STANDARD_SERVICE_QUEUE,Service Team,FALSE,Used for simple low-risk service requests.

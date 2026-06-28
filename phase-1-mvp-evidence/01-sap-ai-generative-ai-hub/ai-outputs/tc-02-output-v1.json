@@ -1,0 +1,14 @@
+{
+  "summary": "Customer reports receiving an invoice with a duplicate charge and requests a corrected invoice.",
+  "category": "Billing Issue",
+  "sentiment": "Negative",
+  "business_impact": "Incorrect invoice may cause payment delays or accounting issues, but no immediate business disruption is stated.",
+  "urgency": "Medium",
+  "priority": "Medium",
+  "sla_risk": "Medium",
+  "recommended_team": "Billing Support",
+  "recommended_action": "Review the invoice for duplicate charges, correct the billing amount if confirmed, and issue an updated invoice to the customer.",
+  "confidence": 0.95,
+  "requires_human_review": false,
+  "decision_justification": "This is a billing issue involving an incorrect invoice and duplicate charge. Priority is Medium because it is important but no immediate operational disruption, legal risk, refund request, or repeated issue is mentioned."
+}

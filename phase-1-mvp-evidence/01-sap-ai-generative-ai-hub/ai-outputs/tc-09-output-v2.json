@@ -1,0 +1,15 @@
+{
+  "summary": "Customer reports that the wrong item was delivered to their warehouse, causing delays in their order fulfilment.",
+  "category": "Delivery Issue",
+  "sentiment": "Negative",
+  "business_impact": "Order fulfilment is delayed due to receiving the wrong item, creating significant operational impact, though full business stoppage is not stated.",
+  "urgency": "High",
+  "priority": "High",
+  "sla_risk": "High",
+  "recommended_team": "Logistics Team",
+  "recommended_action": "Escalate for urgent review, verify the order and delivered item, arrange expedited delivery of the correct item, and coordinate return or collection of the incorrect item.",
+  "workflow_route": "SERVICE_MANAGER_REVIEW",
+  "confidence": 0.95,
+  "requires_human_review": true,
+  "decision_justification": "Priority is High because the wrong delivery is causing order fulfilment delays, which indicates significant operational impact and possible SLA risk. Human review is required because priority is High. No safety risk, legal or compliance issue, refund request, or full business operation stoppage is mentioned."
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "Customer says the support team has not responded to their previous email for five days and expresses disappointment.",
+  "category": "General Service Complaint",
+  "sentiment": "Negative",
+  "business_impact": "Customer dissatisfaction due to delayed support response; no immediate business disruption or operational impact is stated.",
+  "urgency": "Medium",
+  "priority": "Medium",
+  "sla_risk": "Medium",
+  "recommended_team": "Service Team",
+  "recommended_action": "Review the previous email, respond to the customer promptly, address the unresolved issue, and confirm expected response timelines.",
+  "workflow_route": "RESPONSIBLE_TEAM_REVIEW",
+  "confidence": 0.95,
+  "requires_human_review": false,
+  "decision_justification": "The complaint is a clear general service issue involving a delayed support response and customer dissatisfaction. Priority is Medium because it is a service delay without stated immediate business disruption, legal or compliance risk, safety risk, finance request, or repeated issue three or more times. SLA risk is Medium because a five-day lack of response may indicate a response-time concern, but no specific SLA breach is stated."
+}

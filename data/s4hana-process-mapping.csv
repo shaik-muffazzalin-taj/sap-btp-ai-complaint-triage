@@ -1,0 +1,7 @@
+Mapping ID,Complaint Category,SAP S/4HANA Area,Relevant Object or Process,Notes
+MAP-01,Billing Issue,Finance / Receivables / Dispute Management,Invoice correction or dispute case,Billing complaints may require finance review or dispute follow-up.
+MAP-02,Delivery Issue,Sales / Order Fulfilment,Sales order and delivery follow-up,Delivery complaints may require order or logistics investigation.
+MAP-03,Product Quality,Manufacturing and Supply Chain,Quality or product follow-up,Product complaints may require quality review or supply chain investigation.
+MAP-04,Technical Service,Service Management,Service case or technical support follow-up,Technical complaints may require field service or support review.
+MAP-05,Refund or Return,Finance / Customer Service,Return or refund review,Refund requests may require approval and customer account follow-up.
+MAP-06,General Service Complaint,Service Management / Legal or Compliance,Escalation or legal review,Repeated or legal complaints require human escalation.

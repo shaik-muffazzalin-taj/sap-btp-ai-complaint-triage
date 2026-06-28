@@ -1,0 +1,15 @@
+{
+  "summary": "Customer wants to return the product and requests a refund because it does not meet the agreed requirements.",
+  "category": "Refund or Return",
+  "sentiment": "Negative",
+  "business_impact": "Customer is dissatisfied with the product meeting agreed requirements and is requesting a return and refund; no immediate business disruption is stated.",
+  "urgency": "Medium",
+  "priority": "Medium",
+  "sla_risk": "Medium",
+  "recommended_team": "Finance Team",
+  "recommended_action": "Review the refund and return request, verify the agreed requirements against the delivered product, confirm eligibility, and process the return and refund if approved.",
+  "workflow_route": "FINANCE_APPROVAL",
+  "confidence": 0.96,
+  "requires_human_review": true,
+  "decision_justification": "The complaint clearly requests a return and refund, so it is categorized as Refund or Return and routed to Finance Approval. Human review is required because a refund is requested. Priority is Medium because the issue is important but no business operation stoppage, safety risk, legal or compliance risk, or repeated issue is mentioned."
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "Customer reports that the product overheated during operation and may create a safety risk for staff.",
+  "category": "Product Quality",
+  "sentiment": "Highly Negative",
+  "business_impact": "Potential staff safety risk during product operation is mentioned; operational impact beyond the safety concern is not specified.",
+  "urgency": "Immediate",
+  "priority": "Critical",
+  "sla_risk": "High",
+  "recommended_team": "Quality Team",
+  "recommended_action": "Immediately escalate for safety assessment, advise the customer to stop using the product until reviewed, investigate the overheating issue, and coordinate corrective action.",
+  "workflow_route": "CRITICAL_ESCALATION",
+  "confidence": 0.97,
+  "requires_human_review": true,
+  "decision_justification": "Priority is Critical because the complaint mentions a potential safety risk for staff. Human review is required due to safety risk and Critical priority. The complaint does not specify whether operations are stopped or whether there are legal or compliance implications."
+}

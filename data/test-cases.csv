@@ -1,0 +1,11 @@
+Test Case ID,Complaint Text,Expected Category,Expected Priority,Expected SLA Risk,Expected Team,Expected Human Review,Expected Notes
+TC-01,"Our production machine has stopped again. This is the third time we are reporting this issue. Our operations are blocked and we need immediate support.",Technical Service,Critical,High,Technical Service Team,TRUE,"Production stopped and repeated issue; critical escalation required."
+TC-02,"I received an invoice with a duplicate charge. The amount is incorrect and I need a corrected invoice.",Billing Issue,Medium,Medium,Finance Team,TRUE,"Financial correction required; finance review needed."
+TC-03,"My delivery was supposed to arrive yesterday, but the shipment is still missing and there is no update.",Delivery Issue,Medium,Medium,Logistics Team,FALSE,"Standard delivery delay without business-critical impact."
+TC-04,"The product overheated during operation and may create a safety risk for our staff.",Product Quality,Critical,High,Quality Team,TRUE,"Safety risk mentioned; critical escalation and human review required."
+TC-05,"We are considering legal action because this issue has not been resolved despite multiple complaints.",General Service Complaint,Critical,High,Service Manager / Legal or Compliance Team,TRUE,"Legal threat and repeated unresolved complaint."
+TC-06,"Your support team has not responded to my previous email for five days. This is very disappointing.",General Service Complaint,Medium,Medium,Service Team,FALSE,"Service delay and negative sentiment, but no critical business impact."
+TC-07,"The delivered product is damaged and cannot be used. We need a replacement urgently.",Product Quality,High,High,Quality Team,TRUE,"Damaged unusable product with urgent replacement request."
+TC-08,"I want to return the product and request a refund because it does not meet the agreed requirements.",Refund or Return,Medium,Medium,Finance Team,TRUE,"Refund request requires finance/service review."
+TC-09,"The wrong item was delivered to our warehouse, and our order fulfilment is now delayed.",Delivery Issue,High,High,Logistics Team,TRUE,"Wrong item affects warehouse/order fulfilment; business impact present."
+TC-10,"I have a question about how to update my service address for future deliveries.",General Service Complaint,Low,Low,Service Team,FALSE,"Simple information request; no escalation needed."

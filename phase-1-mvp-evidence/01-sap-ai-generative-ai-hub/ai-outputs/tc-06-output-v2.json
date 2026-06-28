@@ -1,0 +1,15 @@
+{
+  "summary": "Customer reports that the support team has not responded to a previous email for five days and expresses disappointment.",
+  "category": "General Service Complaint",
+  "sentiment": "Negative",
+  "business_impact": "Delayed support response may impact customer satisfaction; no direct operational or financial disruption is stated.",
+  "urgency": "High",
+  "priority": "High",
+  "sla_risk": "High",
+  "recommended_team": "Service Manager",
+  "recommended_action": "Escalate to a service manager to review the missed response, contact the customer promptly, address the original email, and check whether response time commitments were breached.",
+  "workflow_route": "SERVICE_MANAGER_REVIEW",
+  "confidence": 0.94,
+  "requires_human_review": true,
+  "decision_justification": "Priority is High because the customer has waited five days without a support response, creating possible SLA risk and customer dissatisfaction. Human review is required because the priority is High. No refund, legal, safety, or operational stoppage is mentioned."
+}
