@@ -3,26 +3,281 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Phase 1 MVP portfolio for SAP BTP Business AI complaint triage and process automation.">
   <title>SAP BTP Business AI Complaint Triage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>SAP BTP Business AI Complaint Triage</h1>
-    <p>A completed Phase 1 MVP showing AI-assisted complaint triage, SAP Build workflow routing, and S/4HANA process mapping.</p>
-    <section>
-      <h2>What it demonstrates</h2>
-      <ul>
-        <li>SAP Generative AI Hub prompt testing and structured JSON output.</li>
-        <li>SAP Build Process Automation workflow and decision-table routing.</li>
-        <li>SAP S/4HANA process mapping for finance, sales, service, and supply chain context.</li>
-      </ul>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top">SAP BTP AI Complaint Triage</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#services">SAP Services</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#videos">Videos</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#roadmap">Roadmap</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio Project</p>
+        <h1>SAP BTP Business AI Complaint Triage and Process Automation Prototype</h1>
+        <p class="subtitle">AI-assisted customer complaint triage using SAP Generative AI Hub, SAP AI Launchpad, SAP Build Process Automation, and SAP S/4HANA process mapping.</p>
+        <div class="hero-actions">
+          <span class="status-badge">Phase 1 MVP Completed</span>
+          <a class="button" href="#evidence">View evidence</a>
+        </div>
+      </div>
     </section>
-    <section>
-      <h2>MVP boundary</h2>
-      <p>AI output is manually transferred into SAP Build in Phase 1. Live API and OData integrations are planned future enhancements.</p>
+
+    <section id="overview" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Project Overview</p>
+        <h2>From unstructured complaints to workflow-ready triage</h2>
+      </div>
+      <p class="lead">This project demonstrates how customer complaints can be analysed using SAP Generative AI Hub, converted into structured triage fields, and used in SAP Build Process Automation for decision-table-based workflow routing. SAP S/4HANA Cloud Public Edition trial is used as an ERP process-context layer for mapping complaint outcomes to backend business processes.</p>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">SAP Services Used</p>
+        <h2>Core SAP components demonstrated</h2>
+      </div>
+      <div class="card-grid services-grid">
+        <article class="card">
+          <h3>SAP BTP Cockpit</h3>
+          <p>Used as the platform entry point for understanding account, service, and destination setup context for the solution landscape.</p>
+        </article>
+        <article class="card">
+          <h3>SAP AI Launchpad</h3>
+          <p>Used to access and manage SAP AI capabilities, including evidence from model selection, prompt work, and orchestration-related screens.</p>
+        </article>
+        <article class="card">
+          <h3>SAP Generative AI Hub</h3>
+          <p>Used to test complaint-analysis prompts and generate structured JSON output for category, priority, SLA risk, routing, and human-review decisions.</p>
+        </article>
+        <article class="card">
+          <h3>SAP Build Process Automation</h3>
+          <p>Used to model the workflow MVP with form fields, decision-table routing, release, deployment, testing, and monitoring evidence.</p>
+        </article>
+        <article class="card">
+          <h3>SAP S/4HANA Cloud Public Edition Trial</h3>
+          <p>Used as the ERP process-context layer to map complaint outcomes to finance, sales, receivables, disputes, service, and supply chain areas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="architecture" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Phase 1 Architecture Flow</p>
+        <h2>MVP flow with honest integration boundary</h2>
+      </div>
+      <div class="flow-block" aria-label="Phase 1 architecture flow">
+        <span>Customer Complaint</span>
+        <span>→</span>
+        <span>SAP Generative AI Hub / SAP AI Launchpad</span>
+        <span>→</span>
+        <span>Structured AI Output</span>
+        <span>→</span>
+        <span>Manual Transfer into SAP Build</span>
+        <span>→</span>
+        <span>SAP Build Process Automation Form</span>
+        <span>→</span>
+        <span>Decision Table</span>
+        <span>→</span>
+        <span>Workflow Path</span>
+        <span>→</span>
+        <span>S/4HANA Process Mapping</span>
+      </div>
+    </section>
+
+    <section id="videos" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Demo Videos</p>
+        <h2>Recorded walkthrough evidence</h2>
+      </div>
+      <div class="card-grid video-grid">
+        <article class="card video-card">
+          <h3>SAP AI Generative AI Hub Demo</h3>
+          <p>Prompt and orchestration evidence showing how complaint text is converted into structured AI output.</p>
+          <video controls preload="metadata" data-fallback-src="../assets/videos/01-sap-ai-generative-ai-hub/Prompt Editor - SAP AI Launchpad - Google Chrome 2026-06-27 14-53-01.mp4">
+            <source src="../assets/videos/01-sap-ai-generative-ai-hub-demo.mp4" type="video/mp4">
+          </video>
+          <a href="../assets/videos/01-sap-ai-generative-ai-hub-demo.mp4">Open video file</a>
+        </article>
+        <article class="card video-card">
+          <h3>SAP Build Process Automation Demo</h3>
+          <p>Workflow walkthrough covering the complaint form, routing design, and process execution evidence.</p>
+          <video controls preload="metadata" data-fallback-src="../assets/videos/02-sap-build-process-automation/SAP_build_process_automation_work_walkthrough.mp4">
+            <source src="../assets/videos/02-sap-build-process-automation-demo.mp4" type="video/mp4">
+          </video>
+          <a href="../assets/videos/02-sap-build-process-automation-demo.mp4">Open video file</a>
+        </article>
+        <article class="card video-card">
+          <h3>Phase 1 MVP Walkthrough</h3>
+          <p>End-to-end portfolio walkthrough connecting AI triage, SAP Build routing, and S/4HANA process mapping.</p>
+          <video controls preload="metadata">
+            <source src="../assets/videos/03-phase-1-walkthrough.mp4" type="video/mp4">
+          </video>
+          <a href="../assets/videos/03-phase-1-walkthrough.mp4">Open video file</a>
+        </article>
+      </div>
+      <!-- Add future demo video cards here. Keep paths relative to github-pages/index.html, for example: ../assets/videos/new-demo.mp4 -->
+    </section>
+
+    <section id="evidence" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Screenshot Evidence</p>
+        <h2>Phase 1 SAP product evidence</h2>
+      </div>
+
+      <div class="evidence-group">
+        <h3>A. SAP AI / Generative AI Hub Evidence</h3>
+        <div class="card-grid screenshot-grid">
+          <article class="card screenshot-card">
+            <h4>Model Library</h4>
+            <p>Evidence of model selection and available model configuration in SAP AI Launchpad.</p>
+            <a href="../assets/screenshots/01-sap-ai-generative-ai-hub/model-library/SAP-generative-ai-hub-model-selection-screen.png">
+              <img src="../assets/screenshots/01-sap-ai-generative-ai-hub/model-library/SAP-generative-ai-hub-model-selection-screen.png" alt="SAP Generative AI Hub model selection screen">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Prompt Editor</h4>
+            <p>Prompt template evidence showing complaint input fields and structured response testing.</p>
+            <a href="../assets/screenshots/01-sap-ai-generative-ai-hub/prompt-editor/prompt-editor-screen-with-fields-filled-and-executed-response.png">
+              <img src="../assets/screenshots/01-sap-ai-generative-ai-hub/prompt-editor/prompt-editor-screen-with-fields-filled-and-executed-response.png" alt="SAP Generative AI Hub prompt editor screen">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Prompt Management</h4>
+            <p>Saved prompt template evidence for the complaint triage prompt.</p>
+            <a href="../assets/screenshots/01-sap-ai-generative-ai-hub/prompt-management/prompt-management-screen-showing-complain-triage-prompt-template.png">
+              <img src="../assets/screenshots/01-sap-ai-generative-ai-hub/prompt-management/prompt-management-screen-showing-complain-triage-prompt-template.png" alt="SAP Generative AI Hub prompt management screen">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Orchestration Result Trace</h4>
+            <p>Orchestration evidence showing execution trace and response handling context.</p>
+            <a href="../assets/screenshots/01-sap-ai-generative-ai-hub/orchestration/orchestration-result-trace.png">
+              <img src="../assets/screenshots/01-sap-ai-generative-ai-hub/orchestration/orchestration-result-trace.png" alt="SAP Generative AI Hub orchestration result trace">
+            </a>
+          </article>
+        </div>
+      </div>
+
+      <div class="evidence-group">
+        <h3>B. SAP Build Process Automation Evidence</h3>
+        <div class="card-grid screenshot-grid">
+          <article class="card screenshot-card">
+            <h4>Workflow Overview</h4>
+            <p>Complaint routing process workflow built in SAP Build Process Automation.</p>
+            <a href="../assets/screenshots/02-sap-build-process-automation/sap-build-complaint-routing-process-workflow.png">
+              <img src="../assets/screenshots/02-sap-build-process-automation/sap-build-complaint-routing-process-workflow.png" alt="SAP Build complaint routing process workflow">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Decision Routing</h4>
+            <p>Decision-table routing evidence for workflow path selection.</p>
+            <a href="../assets/screenshots/02-sap-build-process-automation/sap-build-route-decision.png">
+              <img src="../assets/screenshots/02-sap-build-process-automation/sap-build-route-decision.png" alt="SAP Build route decision table">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Workflow Monitoring</h4>
+            <p>Monitoring evidence showing process and workflow execution status.</p>
+            <a href="../assets/screenshots/02-sap-build-process-automation/sap-build-process-and-workflow-monitoring.png">
+              <img src="../assets/screenshots/02-sap-build-process-automation/sap-build-process-and-workflow-monitoring.png" alt="SAP Build process and workflow monitoring">
+            </a>
+          </article>
+        </div>
+      </div>
+
+      <div class="evidence-group">
+        <h3>C. SAP S/4HANA Process Mapping Evidence</h3>
+        <div class="card-grid screenshot-grid">
+          <article class="card screenshot-card">
+            <h4>S/4HANA Home</h4>
+            <p>ERP trial environment used as the process-context layer for complaint handling.</p>
+            <a href="../assets/screenshots/03-sap-s4hana/sap-s4-hana-home-page.png">
+              <img src="../assets/screenshots/03-sap-s4hana/sap-s4-hana-home-page.png" alt="SAP S/4HANA Cloud home page">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Finance Context</h4>
+            <p>Finance and receivables context for billing complaints, disputes, and account follow-up.</p>
+            <a href="../assets/screenshots/03-sap-s4hana/sap-s4-hana-finance-page.png">
+              <img src="../assets/screenshots/03-sap-s4hana/sap-s4-hana-finance-page.png" alt="SAP S/4HANA finance page">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Sales Orders</h4>
+            <p>Sales order context for delivery complaints and order fulfilment follow-up.</p>
+            <a href="../assets/screenshots/03-sap-s4hana/sap-s4-hana-manage-sales-orders.png">
+              <img src="../assets/screenshots/03-sap-s4hana/sap-s4-hana-manage-sales-orders.png" alt="SAP S/4HANA manage sales orders">
+            </a>
+          </article>
+          <article class="card screenshot-card">
+            <h4>Dispute Cases</h4>
+            <p>Dispute-management context for billing escalation and customer finance issues.</p>
+            <a href="../assets/screenshots/03-sap-s4hana/sap-s4-hana-manage-dispute-cases.png">
+              <img src="../assets/screenshots/03-sap-s4hana/sap-s4-hana-manage-dispute-cases.png" alt="SAP S/4HANA manage dispute cases">
+            </a>
+          </article>
+        </div>
+      </div>
+      <!-- Add future screenshot cards here. Keep paths relative to github-pages/index.html, for example: ../assets/screenshots/area/example.png -->
+    </section>
+
+    <section class="section note-section">
+      <h2>S/4HANA Context Note</h2>
+      <p>SAP S/4HANA was not integrated live with SAP Build in Phase 1. The S/4HANA screenshots are used as ERP process-context evidence to show where AI-routed complaints could be handled in a real enterprise setup.</p>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Limitations and Roadmap</p>
+        <h2>Current boundary and future enhancements</h2>
+      </div>
+      <div class="two-column">
+        <article class="card">
+          <h3>Current limitations</h3>
+          <ul>
+            <li>AI output is manually transferred into SAP Build.</li>
+            <li>SAP Build does not call SAP AI Core API yet.</li>
+            <li>SAP Build does not call S/4HANA OData API yet.</li>
+            <li>S/4HANA is used for process mapping, not live document creation.</li>
+            <li>No SAP Analytics Cloud dashboard yet.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Future roadmap</h3>
+          <ul>
+            <li>SAP Build Action calling SAP AI Core / Generative AI Hub API.</li>
+            <li>BTP destination setup.</li>
+            <li>S/4HANA OData integration.</li>
+            <li>KPI dashboard in Power BI or SAP Analytics Cloud.</li>
+            <li>Phase 2 business analytics and KPI work.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section resume-summary">
+      <p class="eyebrow">Resume-ready summary</p>
+      <h2>Completed Phase 1 MVP of an SAP BTP Business AI complaint triage prototype using SAP Generative AI Hub, SAP AI Launchpad, and SAP Build Process Automation, with structured AI outputs, decision-table routing, deployment/testing evidence, and SAP S/4HANA process mapping.</h2>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <p>Repository: sap-btp-ai-complaint-triage</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
